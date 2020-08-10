@@ -31,16 +31,23 @@ $(function() {
             $(".nav-li-ul").css(
                 "display ", "block"
             )
+            $(this).css({
+                "background-image": "url(./img/shang.png)"
+            })
+
             navFlag = false
         } else {
             $(".nav-li-ul").css(
                 "display ", "none"
             )
+            $(this).css(
+                "background-image", "url(./img/xia.png)"
+            )
+
             navFlag = true
         }
 
     })
-
 
 
 

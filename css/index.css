@@ -118,14 +118,14 @@ html {
 .nav-list-left {
     width: 0.75rem;
     height: 100%;
-    background-color: salmon;
+    background-color: gray;
     float: left;
 }
 
 .nav-list-right {
     width: calc(100% - 0.75rem);
     height: 100%;
-    background-color: seashell;
+    background-color: white;
     float: left;
 }
 
@@ -146,9 +146,12 @@ html {
 .nav-li-box {
     width: 0.4rem;
     height: 0.4rem;
-    background-color: blue;
+    /* background-color: #999999; */
+    background-image: url(../img/xia.png);
+    background-repeat: no-repeat;
     display: block;
     float: right;
+    /* transform: rotate(90deg); */
     margin-right: 1.5rem;
     /* font-weight: 400; */
     /* display: block; */
@@ -161,7 +164,7 @@ html {
 }
 
 .nav-li-ul li {
-    background-color: gray;
+    background-color: #bdbdbd;
     border-bottom: 1px solid #000;
     font-family: arial;
     width: 100%;
